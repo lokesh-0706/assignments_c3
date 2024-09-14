@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+        transition: background-color 0.5s ease;
+      }
+      .container {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+      }
+      .common-style {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        width: 60px;
+        padding: 10px;
+        border-radius: 5px;
+        margin: 10px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div
+        class="common-style"
+        onclick="changebg('red')"
+        style="background-color: red"
+      >
+        Red
+      </div>
+      <div
+        class="common-style"
+        onclick="changebg('yellow')"
+        style="background-color: yellow"
+      >
+        Yellow
+      </div>
+      <div
+        class="common-style"
+        onclick="changebg('black')"
+        style="background-color: black; color: white"
+      >
+        Black
+      </div>
+      <div
+        class="common-style"
+        onclick="changebg('purple')"
+        style="background-color: purple; color: white"
+      >
+        Purple
+      </div>
+      <div
+        class="common-style"
+        onclick="changebg('green')"
+        style="background-color: green"
+      >
+        Green
+      </div>
+      <div
+        class="common-style"
+        onclick="changebg('blue')"
+        style="background-color: blue; color: white"
+      >
+        Blue
+      </div>
+      <div
+        class="common-style"
+        onclick="changebg('orange')"
+        style="background-color: orange"
+      >
+        Default
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
